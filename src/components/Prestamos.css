@@ -1,0 +1,83 @@
+/* LIBRO INICIO */
+.prestamo {
+  display: flex;
+  width: 100vw;
+  height: 88vh;
+}
+
+.prestamo__aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  background: rgb(199, 213, 255);
+}
+
+.prestamo__content {
+  width: 80%;
+  height: 100%;
+}
+
+.prestamo__content h3 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.prestamo__content table {
+  outline: 2px solid royalblue;
+  border-radius: 5px;
+  margin: auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+.prestamo__content table thead {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: large;
+}
+.prestamo__content table thead th {
+  padding: 1em 1.5em;
+}
+
+.prestamo__content table tbody td {
+  padding: 0.5em 1.5em;
+}
+.prestamo__content table tbody tr:first-child td {
+  padding: 0.5em 1.5em;
+}
+
+.prestamo__content th,
+.prestamo__content td {
+  text-align: center;
+}
+
+.prestamo__content tbody tr {
+  transition: all ease 0.3s;
+}
+
+.prestamo__content tbody tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+.prestamo__content tbody tr:nth-child(even) {
+  background-color: rgb(228, 236, 255);
+}
+
+.prestamo__content tbody tr:hover {
+  background-color: rgb(231, 231, 231);
+}
+.botonLibro{
+  padding: 20px;
+  border-radius: 20px;
+  background-color: royalblue;
+  border-color: white;
+  color:white;
+  font-weight: bold;
+
+}
+
+/* LIBRO FIN */
